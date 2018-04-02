@@ -1,0 +1,81 @@
+/******************************************
+*  Author : Author
+*  Created On : Mon Apr 02 2018
+*  File : body.scss
+*******************************************/
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #262D31;
+    background: linear-gradient(214deg, #232323, #333333, #264157, #3689a0, #444444, #264157);
+    font-size: 12px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+    top: 0;
+    display: inline-block;
+    position: relative;
+    float: left;
+    animation: Gradient_Flow 1.6s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes Gradient_Flow {
+    0% {
+        background-position: 26% 0%
+    }
+    50% {
+        background-position: 75% 100%
+    }
+    100% {
+        background-position: 26% 0%
+    }
+}
+
+@-moz-keyframes Gradient_Flow {
+    0% {
+        background-position: 26% 0%
+    }
+    50% {
+        background-position: 75% 100%
+    }
+    100% {
+        background-position: 26% 0%
+    }
+}
+
+@-o-keyframes Gradient_Flow {
+    0% {
+        background-position: 26% 0%
+    }
+    50% {
+        background-position: 75% 100%
+    }
+    100% {
+        background-position: 26% 0%
+    }
+}
+
+@keyframes Gradient_Flow {
+    0% {
+        background-position: 26% 0%
+    }
+    50% {
+        background-position: 75% 100%
+    }
+    100% {
+        background-position: 26% 0%
+    }
+}
+.particle_background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  opacity: 0.7;
+  z-index: 1;
+  background: linear-gradient(165deg, #e5e5e5, #3b4245, #404040, #bfbfbf);
+}
